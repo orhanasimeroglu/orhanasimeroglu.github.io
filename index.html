@@ -1,55 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS ders</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body style="background-image:url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);font-size:20px;background-size:cover;">
-  <pre style="background-color:#1f1f1f;color:white">
-   <font size=6px face=verdana>My Restaurant</font>                                              Mainpage  Portfolyo  About  Contact</pre>
-  <h1 style="text-align:center;color:#cf0030">Pankekler <font size=4px color=#cf70ac>
-    en lezizlerinden
-  </font>
-  </h1>
-  <hr>
- <p>Kahvaltılarınızda severek tüketeceğiniz, reçel, marmelat gibi tatlılarla lezzetlendireceğiniz, kaşık dökmesi olarak da bilinen ama tatlı olan bir tarif. Çocuklarınız pankek tarifine bayılacaklar. Günümüzde olan pankek tavaları ile farklı hayvan şekilleri verebileceğiniz böylelikle de çocuklarınızın dikkatini çekecek olan pankek tarifini mutlaka denemelisiniz.Tavada pankekleriniz pişerken sabırsızlanan çocuklarınız, bir tarafta kaynayan çaydanlığınız ile kahvaltı masalarınız renklenecek. Pankek nasıl yapılır? sorunuzun cevabını bulacağınız tarifimizi denemeyi ve defterinize eklemeyi unutmayın. Deneyeceklere şimdiden afiyet olsun. :)</p> 
-  <h2 style="color:#82CFAA"><u>
-    Hamuru için malzemeler
-  </u></h2>
-  <ul>
-    <li>2 adet yumurta</li>
-<li>2 yemek kaşığı şeker</li>
-<li>1 su bardağı süt</li>
-<li>1,5 su bardağı un</li>
-<li>1 paket kabartma tozu</li>
-<li>1 paket vanilya</li>
-  </ul>
-  <h3 style="color:#82CFAA"><u>Pişirme aşamasında kullanmak için;</u></h3>
-  <ul>
-    <li>sıvı yağ</li>
-  </ul>
-  <image style="width:500px;padding:5px;background-color:blue;" src="https://i.nefisyemektarifleri.com/2020/06/09/pankek-tarifi-videosu-320x213.jpg">
-  <h2 style="color:#CC0000">
-    Tarifimiz
-  </h2>
-    <ol>
-      <li>Pankek yapmak için öncelikle yumurtalar ve şekeri uygun bir karıştırma kabına alarak iyice çırpalım.</li>
-<li>Süt, un, kabartma tozu, vanilya ilave çırpma teli ile çırpalım. Siz dilerseniz mikser ile de çırpabilirsiniz.</li> <li>Kek kıvamından biraz daha koyu olacak şekilde hamur hazırlayalım.</li>
-<li>Teflon ya da yapışmaz bir tavaya az sıvı yağı dökelim, fırça yardımı ile her tarafına dağıtalım. Sıvı yağı az kullanmak pankek yapmanın püf noktalarındandır. Dilerseniz peçete ile de tavaya dağıtabilirsiniz.</li>
-<li>1 büyük kaşık hamur dökülerek hamurun kendi kendine yayılmasını bekleyelim.</li>
-<li>Üzeri göz göz olmaya başlayan pankeklerimizi spatula yardımı ile ters çevirelim. Diğer taraflarını da pişirelim.</li>
-<li>Her iki tarafı da pişen pankeklerimizi servis tabağına alalım.</li>
-<li>Üzerine  pudra şekeri serpilerek zevkinize göre muz, kivi, çilek, çikolata, bal, sürülebilir çikolata, reçel ile servis edebilirsiniz.</li>
-    </ol>
-    <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O2xWJcobcSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br>
-      <a href="https://youtu.be/O2xWJcobcSY" target="blank">Youtube'dan izlemek için tıklayın</a>  
-  <br>
-      <pre style="background-color:#1f1f1f;color:white">
-    Mainpage  Portfolyo  About  Contact <br><font size=4px>Tüm hakları saklıdır</font>
-      </pre>    
+
+<body>
+    
+    <div id="container">
+        <ul id="menu-list">
+            <li class="list"><i class="fas fa-home"></i> HOME </li>
+            <li class="list"><i class="fas fa-igloo"></i> ABOUT</li>
+            <li class="list"><i class="fas fa-tachometer"></i> PRODUCT </li>
+            <li class="list"><i class="fas fa-hotel"></i> CONTACT </li>
+
+        </ul> 
+
+    </div>
+    
+    <hr class="line">
+
+    <div id="content">
+
+        <div id="imagecontainer">
+            <img id="image" src="https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496__340.jpg" alt="" >
+        </div>
+
+        <div id="infocontainer">
+
+            <h1 id="title">Modern CSS Dersleri</h1>
+
+            <p id="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius voluptatibus tempora eaque!</p>
+
+            <div id="btnContainer">
+                <button id="btn"><i class="fas fa-play-circle"></i> Keşfet</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="submenu">
+        <div class="submenuitem">
+            <img class="submenuimage" src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246__340.png" alt="">
+            <h4 class="submenutitle">Community</h4>
+            <p class="submenuparagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit aut distinctio repellendus quas sint tempore nesciunt ullam molestias at perspiciatis est culpa voluptate vitae cupiditate, unde quo, nisi libero.</p>
+            <button class="submenubtn"><i class="fa-solid fa-circle-info"></i> See More</span></button>
+        </div>
+        <div class="submenuitem">
+            <img class="submenuimage" src="https://cdn.pixabay.com/photo/2017/05/09/13/33/laptop-2298286__340.png" alt="">
+            <h4 class="submenutitle">Media</h4>
+            <p class="submenuparagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit aut distinctio repellendus quas sint tempore nesciunt ullam molestias at perspiciatis est culpa voluptate vitae cupiditate, unde quo, nisi libero.</p>
+            <button class="submenubtn"><i class="fa-solid fa-circle-info"></i> See More</span></button>
+        </div>
+        <div class="submenuitem">
+            <img class="submenuimage" src="https://cdn.pixabay.com/photo/2020/08/16/03/30/remote-5491798__340.png" alt="">
+            <h4 class="submenutitle">Sign in</h4>
+            <p class="submenuparagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit aut distinctio repellendus quas sint tempore nesciunt ullam molestias at perspiciatis est culpa voluptate vitae cupiditate, unde quo, nisi libero.</p>
+            <button class="submenubtn"><i class="fa-solid fa-circle-info"></i> See More</span></button>
+        </div>
+        <div class="submenuitem">
+            <img class="submenuimage" src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236__340.jpg" alt="">
+            <h4 class="submenutitle">And More</h4>
+            <p class="submenuparagraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit aut distinctio repellendus quas sint tempore nesciunt ullam molestias at perspiciatis est culpa voluptate vitae cupiditate, unde quo, nisi libero.</p>
+            <button class="submenubtn"><i class="fa-solid fa-circle-info"></i> See More</span></button>
+        </div>
+    </div>
+
+    <div id="formtable">
+
+        <div id="formContainer">
+
+            <form>
+               
+                <div class="infobox">
+                    <label class="infoLabel"> Adınızı giriniz :</label>
+                    <input class="infoInput" type="text">
+                </div>
+
+                <div class="infobox">
+                    <label class="infoLabel"> Soyadınızı giriniz :</label>
+                    <input class="infoInput" type="text">
+                </div>
+
+                <div class="infobox">
+                    <label class="infoLabel"> Yaşınızı giriniz :</label>
+                    <input class="infoInput" type="number">
+                </div>
+
+                <div class="infobox">
+                    <label class="infoLabel"> Email adresinizi giriniz :</label>
+                    <input class="infoInput" type="email">
+                </div>
+
+                <div class="infobox">
+                    <label class="infoLabel"> Telefon numaranızı giriniz :</label>
+                    <input class="infoInput" type="tel">
+                </div>
+
+                <div>
+                    <button id="submitBtn"><i class="far fa-check-square"></i> Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div id="tableContainer">
+
+            <table id="personalList">
+
+                <thead>
+
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Yaşı</th>
+                    <th>Email adresi</th>
+                    <th>Telefon numarası</th>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Ali</td>
+                        <td>Can</td>
+                        <td>12</td>
+                        <td>example123@gmail.com</td>
+                        <td>+12 345 678 9000</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Ömer</td>
+                        <td>Canlı</td>
+                        <td>14</td>
+                        <td>lorem123@gmail.com</td>
+                        <td>+1 098 765 4321</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Ayşe</td>
+                        <td>Fatma</td>
+                        <td>13</td>
+                        <td>xxxxx123@gmail.com</td>
+                        <td>+90 123 456 7890</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+
+        <div id="widgetArea">
+
+            <div class="widgetItem">
+
+                <h4 class="listHeading">Lorem</h4>
+
+                <ul class="widgetList">
+
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+
+                </ul>
+
+            </div>
+
+            <div class="widgetItem">
+
+                <h4 class="listHeading">Lorem</h4>
+
+                <ul class="widgetList">
+
+                    <li>lorem</li>
+                    <li>lorem</li>
+
+                </ul>
+
+            </div>
+
+            <div class="widgetItem">
+
+                <h4 class="listHeading">Lorem</h4>
+
+                <ul class="widgetList">
+
+                    <li>lorem</li>
+
+                </ul>
+
+            </div>
+
+            <div class="widgetItem">
+
+                <h4 class="listHeading">Lorem</h4>
+
+                <ul class="widgetList">
+
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="footerMenu">
+
+            <div id="footerMenuContainer">
+                
+                <button class="footerMenuBtn"> Home </button>
+
+                <button class="footerMenuBtn"> About </button>
+
+                <button class="footerMenuBtn"> FAQ </button>
+
+                <button class="footerMenuBtn"> Contact </button>
+
+            </div>
+
+        </div>
+
+        <div id="bottomBar">
+
+            <div id="bottomBarContainer">
+
+                <p id="bottomBarParagraph">
+                    Designed by <b>Orhan A. E.</b> | Powered by <b>xxx</b>
+                </p>
+
+                <p id="Copyright">
+                    <i class="far fa-copyright"></i> Copyright | Tüm Hakları Saklıdır
+                </p>
+
+                <div id="bottomBarIcons">
+
+                    <button class="IconBtn"><i class="fab fa-facebook-f"></i></button>
+                    
+                    <button class="IconBtn"><i class="fab fa-twitter"></i></button>
+                    
+                    <button class="IconBtn"><i class="fab fa-google-plus-g"></i></button>
+                    
+                    <button class="IconBtn"><i class="fas fa-wifi"></i></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
 </html>
