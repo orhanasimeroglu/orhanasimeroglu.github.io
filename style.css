@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    padding: 20px;
+}
+#menu-list{
+    list-style: none;/*Listenin yanındaki kucuk noktaları kaldırır*/
+    display: flex; /* Listedeki elemanları yan yana getirmek icin yazdım*/
+}
+.list{
+    margin-right: 20px;/*Sagdan bosluk verme*/
+    font-size: 20px;/*Yazının buyuklugunu degistirme*/
+    font-family:'Supermercado One', cursive ;/*Yazının fontunu degistirme*/
+    font-weight:bold ;/* Yazıyı kalın yapma*/
+}
+.list:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    cursor: pointer;/*uzerine geldiginde el isareti olusur*/
+    transition: 2s;/*renk gecisi yavasladi*/
+}
+.line{
+    -webkit-box-shadow: 1px 4px 5px 2px #000000; /*css generatordan alındı*/
+    box-shadow: 1px 4px 3px 2px #000000;
+    clear: both;
+}
+#content{
+    padding: 50px;
+}
+#imagecontainer{
+    width: 50%;
+    float: left;
+}
+#image{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 40% 8%;
+    -webkit-box-shadow: 0px 0px 20px 20px #000000; 
+    box-shadow: 0px 0px 20px 20px #000000;
+}
+#infocontainer{
+    width: 50%;
+    float: right;
+}
+#title{
+    text-align: center;
+    font-family:'Supermercado One', cursive ;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#summary{
+    margin-top: 50px;
+    font-size: 20px;
+}
+#btn{
+    padding: 8px 24px;
+    border: none;
+    background-color: rgb(170, 40, 40);
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+    color: rgb(170, 40, 40);
+    border: solid rgb(170, 40, 40) 2px;
+}
+#btnContainer{
+    display: flex;
+    justify-content: center;
+}
+#submenu{
+    clear: both; /* sağ ve sola yaslanan elemanlardan sonra bu özellik verilirse bu eşemanlar iç içe geçmez.*/
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.submenuitem{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 5px rgb(0, 0, 0); 
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}
+.submenuimage{
+    width: 80px;
+    border-radius:10% ;
+}
+.submenubtn{
+    padding: 8px 24px;
+    border: none ;
+    color: white;
+    background-color: rgb(170, 40, 40);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.submenubtn:hover{
+    cursor: pointer;
+    border: solid rgb(170, 40, 40) 2px;
+    background-color: white;
+    color: rgb(170, 40, 40);
+    transition: 1s;
+}
+/*css generator kullanılarak kopyalaa yapıştır metodu ile yapıldı*/
+.submenutitle{
+    font-size: 25px;
+    color: #202c2d;
+    background: #FFFFFF;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+    color: #202c2d;
+    background: #FFFFFF;
+}
+.submenuparagraf{
+    font-family:'Supermercado One', cursive ;
+}
+#formtable{
+    padding: 70px;
+
+}
+#formContainer{
+    width: 50%;
+    float: left;
+}
+#tableContainer{
+    width: 50%;
+    float: right;
+}
+.infobox{
+    display: flex;
+    margin-bottom: 15px;
+}
+.infoLabel{
+    width: 35%;
+}
+.infoInput{
+    width: 65%;
+    border: solid rgb(4, 80, 4) 1px;
+}
+#submitBtn{
+    width: 65%;
+    float: right;
+    border: none ;
+    color: white;
+    background-color: rgb(170, 40, 40);
+    margin: 30px 0px;
+    border-radius: 10%;
+    padding: 5px;
+}
+#submitBtn:hover{
+    cursor: pointer;
+    border: solid rgb(4, 80, 4) 1px;
+    background-color: white;
+    color: rgb(4, 80, 4);
+    transition: 1s;
+}
+#personalList{
+    width: 100%;
+    border-collapse: collapse ;
+    margin-left: 20px;
+}
+table,thead,tbody,th,tr,td{
+    border: 1px solid black;
+    text-align: center;
+}
+#footer{
+    clear: both;
+    background-color: rgb(50, 50, 50);
+}
+#widgetArea{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.widgetItem{
+    margin: 20px;
+    width: 25%;
+}
+.listHeading{
+    color: rgba(150, 150, 250, 0.6);
+}
+.widgetList{
+    list-style-type:none;
+    padding-left: 0px;
+}
+#footerMenu{
+    clear: both;
+    background-color: rgb(75, 75, 75);
+    padding: 10px 0;
+}
+#footerMenuContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footerMenuBtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgba(255, 255, 255, 0.76);
+    margin: 0px 10px ;
+}
+.footerMenuBtn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#bottomBar{
+    background-color: rgb(25, 25, 25);
+}
+#bottomBarContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+#bottomBarParagraph{
+    width: 40%;
+    color: rgb(200, 200, 200);
+}
+#Copyright{
+    width: 40%;
+    color: rgba(0, 0, 0, 0.8);
+}
+#bottomBarIcons{
+    width: 20%;
+}
+.IconBtn{
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+}
+.IconBtn:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
